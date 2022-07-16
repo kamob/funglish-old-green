@@ -1,0 +1,199 @@
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
+
+/* .wrapper {
+    background-color: $color-bg-body;
+    margin: 1em;
+    margin-left: 1em; */
+/* 
+} */
+main {
+  margin: 20px; }
+
+a {
+  margin: 25px;
+  color: red;
+  text-decoration: none; }
+
+nav {
+  font-size: 20px;
+  max-width: 90%;
+  margin: 10px auto;
+  color: #9b1212;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center; }
+
+ul {
+  list-style-type: none; }
+
+.logoAndtitle {
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  margin-bottom: 40px; }
+
+.important {
+  text-align: center;
+  font-family: 'Slabo 13px';
+  font-size: 50px;
+  display: inline;
+  position: relative;
+  left: -70px; }
+
+.frontpage-pic img {
+  display: block;
+  width: 40%;
+  margin: 5em auto;
+  margin-bottom: 1em;
+  border: 6px solid grey;
+  border-radius: 7px; }
+
+.frontpage-pic-caption {
+  width: 25em;
+  margin: 1em auto;
+  font-size: 3pm;
+  font-weight: bold; }
+
+body {
+  background-color: whitesmoke;
+  font-family: 'IM Fell Double Pica SC', serif; }
+
+.container {
+  display: block;
+  width: 90%;
+  margin: 5em 5em;
+  background-color: greenyellow; }
+  .container p {
+    font-size: 1.2em;
+    font-weight: bold; }
+
+.h-left {
+  font-size: 30px;
+  position: relative; }
+
+li {
+  display: inline;
+  padding: 2,5%; }
+
+img#up-z3 {
+  border-radius: 50%;
+  position: relative;
+  left: -100px;
+  top: 20px; }
+
+.last-word {
+  border-top: 3px dotted black;
+  padding-top: 32px;
+  padding-right: 30px;
+  font-size: 15px;
+  text-align: right; }
+
+button {
+  background: red;
+  background: #e92a4a url("../assets/grim.png") -10px 0px no-repeat;
+  /*  background-image: linear-gradient(to bottom, red 0%, rgb(51, 36, 36) 76%); */
+  font-size: 20px;
+  color: #fceded;
+  border-radius: 10px;
+  width: 200px;
+  margin: 10px auto;
+  padding: 5px; }
+  button a {
+    margin-right: 40px; }
+
+button:hover {
+  background: darkolivegreen; }
+
+.button {
+  width: 20%;
+  margin: 10px auto; }
+
+.last-word2 {
+  padding-top: 5px;
+  padding-right: 30px;
+  font-size: 15px;
+  text-align: right; }
+
+span {
+  font-size: 20px;
+  margin-top: 50px;
+  border-radius: 10px; }
+
+.warning {
+  background: crimson 50% no-repeat;
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  background: orangered;
+  background: rgba(187, 56, 37, 0.9);
+  display: block;
+  line-height: 40px;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  color: papayawhip; }
+
+.warning p {
+  margin-top: 5px;
+  line-height: 15px; }
+
+.vertic {
+  background: turquoise;
+  margin: 25px;
+  padding: 5px; }
+
+.vertic li {
+  display: block;
+  padding-bottom: 3px; }
+
+#p1 {
+  color: red; }
+
+footer-ul li {
+  max-width: 0.2em; }
+
+.reviews {
+  list-style-type: none;
+  padding-left: 0; }
+
+.reviews li {
+  font-size: 0.9em;
+  line-height: 1em;
+  float: left;
+  max-width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative; }
+
+.reviews li:before {
+  content: '"';
+  color: red;
+  font-size: 40px;
+  font-style: italic;
+  position: absolute;
+  top: 20px;
+  left: 10px; }
+
+/* .reviews li:after {
+    content:'"';
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+    position: absolute;
+    bottom:20px;
+    right: 70px;
+} */
+.author {
+  margin-left: 5em; }
+
+/*# sourceMappingURL=style.css.map */
